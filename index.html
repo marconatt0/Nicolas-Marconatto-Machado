@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style/style.css" rel="stylesheet">
+    <link href="style/media.css" rel="stylesheet">
     <link href="style/fonts.css" rel="stylesheet">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bc8faa93a8.js" crossorigin="anonymous"></script>
+    <title>Cleo Aventais</title>
 </head>
 
 <body>
     <header>
-
+    
         <nav>
-
-            <a class="logo" href="#">
-                <img src="Cleo-aventais-pink.png">
+            <a class="logo" href="index.html">
+                <img src="components/img/Cleo-aventais-pink.png">
             </a>
+
+            <div class="box-white"></div>
 
             <div class="mobile-menu">
                 <div class="line1"></div>
@@ -25,36 +28,78 @@
             </div>
 
             <ul class="nav-list">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a id="#logo">Início</a></li>
+                <li><a id="#h2">Contato</a></li>
+                <li><a id="sobre.html">Sobre</a></li>
             </ul>
 
         </nav>
 
     </header>
            
-
     <main>
-        <aside>
+        <section class="home">
+            <aside>
 
-            <h2>Faça seu</h2>
-            <h2><span>orçamento</span></h2>
-            <h2><span>agora!</span></h3>
-            <p>
-                Entre em contato agora, saiba mais sobre os serviços, prazos e detalhes dos produtos.
-            </p>
+                <h1>Faça seu</h1>
+                <h1><span>orçamento</span></h2>
+                <h1><span>agora!</span></h3>
 
-            <div>
-                <a href="https://wa.me/5551984915224" id="whats">AQUI!</a>
+                <div class="whats">
+                    <a href="https://wa.me/5551984915224" id="whats">AQUI!</a>
+                </div>
+
+            </aside>
+
+            <article>
+                <img src="components/img/Mulher-costurando.png">
+            </article>
+        </section>
+
+        <section class="contato">
+            <h2>Entre em contato</h2>
+            
+            <div class="redes">
+
+                <a class="whats2" href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a class="face" href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a class="insta" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
+            
+        
+            
+        </section>
 
+        <section class="sobre">
+            <h3>Sobre</h3>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            <div class="perfil">
+                <img src="components/img/cleo-perfil.jpg">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <aside>
+            <h4>todos os direitos</h4>
+            <h4>reservados</h4>
         </aside>
 
-        <article>
-            <img src="Mulher-costurando.png">
-        </article>
-    </main>
+        <a class="white-logo">
+            <img src="components/img/Cleo-aventais.png">
+        </a>
+
+    </footer>
 
     <script src="mobile-navbar.js"></script>
     
