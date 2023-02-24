@@ -21,6 +21,12 @@ nav{
     z-index: 1;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 .box-white{
     height: 10vh;
     width: 30vh;
@@ -82,7 +88,6 @@ a{
 /*--home--*/
 
 .home{
-    position: absolute;
     display: flex;
     background-color: rgb(236, 236, 236);
     flex-direction: row;
@@ -104,7 +109,8 @@ span{
 
 article img{
     width: 75vh;
-    margin-top: -4vh;
+    margin-top: 25px;
+    display: block;
 }
 
 .whats{
@@ -129,7 +135,6 @@ article img{
 /*--contato--*/
 
 .contato{
-    position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -138,7 +143,6 @@ article img{
     border-top: 1px solid #d6cece;
     width: 100%;
     height: 50vh;
-    top: 165.1vh;
 }
 
 h2{
@@ -163,7 +167,6 @@ i{
 /*--sobre--*/
 
 .sobre{
-    position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -171,8 +174,8 @@ i{
     background-color: rgb(223, 222, 222);
     border-top: 1px solid #d6cece;
     width: 100%;
-    height: 70vh;
-    top: 95vh;
+    gap: 15px;
+    padding: 15px 0;
 }
 
 h3{

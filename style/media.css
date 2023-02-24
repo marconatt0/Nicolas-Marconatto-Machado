@@ -1,6 +1,6 @@
 @media screen and (max-width: 760px) {
     body, header{
-        position: fixed;
+        /* position: fixed; */
         box-sizing: border-box;
         width: 100%;
         overflow-x: hidden;
@@ -11,7 +11,7 @@
 
     .home{
         flex-direction: column-reverse;
-        position: relative;
+        padding-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -60,7 +60,10 @@
         margin-left: 0;
         opacity: 0;
         border-bottom: 1px solid #b12179;
-        padding: 5px 10px
+        padding: 5px 10px;
+        width: 75%;
+        display: flex;
+        justify-content: center;
     }
 
     .nav-list a{
