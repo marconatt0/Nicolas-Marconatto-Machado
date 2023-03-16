@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/media.css" rel="stylesheet">
+    <link href="style/fonts.css" rel="stylesheet">
+
+    <title>Cleo Aventais</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-info">
+                <img src="components/img/Cleo-aventais-pink.png">
+
+                <ul class="nav-list">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="box-white"></div>
+
+            <div class="redes">
+                <a class="whats2" href="#">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a class="face" href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="insta" href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div> 
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>  
+        </nav>
+    </header>
+           
+    <main>
+        <section class="home" id="home">
+            <div class="slide-container">
+                <div class="slides">
+                    <input  class="slides" type="radio" name="slide" id="slide1" checked>
+                    <input  class="slides" type="radio" name="slide" id="slide2">
+                    <input  class="slides" type="radio" name="slide" id="slide3">
+
+                    <div class="slide s1">
+                        <img src="./components/img/camisetas.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="./components/img/cabides.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="./components/img/mulher-modelo.jpg">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+            </div>
+
+            <p>Descubra como podemos ajudar a elevar a imagem da sua empresa com nossos produtos de alta qualidade.</p>
+        </section>
+    
+        <section class="home2">
+            <aside>
+                <h1>Faça seu</h1>
+                <h1><span>orçamento</span></h2>
+                <h1><span>agora!</span></h3>
+
+                <div class="whats">
+                    <a href="https://wa.me/5551984915224" id="whats">AQUI!</a>
+                </div>
+            </aside>
+
+            <article>
+                <img src="components/img/Mulher-costurando.png" alt="mulher-costurando">
+            </article>
+        </section>
+        <section class="sobre" id="sobre">
+            <img src="components/img/cleo-perfil.jpg" alt="logo">
+            
+            <div class="texto">
+                <h2>Sobre</h2>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+    
+        </section>
+
+        <section class="contato" id="contato">
+          <h3>Entre em contato</h3>
+
+        <div class="contato-container">
+            <div class="contato-info">
+                <a><i class="fa-solid fa-location-dot"></i> R. Lê Mans, 265 - São José, Canoas</a>
+                <a><i class="fa-solid fa-envelope"></i> cleo.contato@gmail.com</a>
+                <a><i class="fa-solid fa-phone"></i> (51) 98491-5224</a>
+            </div>
+
+            <form
+                action="https://formsubmit.co/ajax/nicolas.marconatto.machado@gmail.com"
+                method="POST"
+                data-form
+                >
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button type="submit" data-button>Enviar</button>
+            </form>
+        </div>
+          
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="return">
+            <div class="white-logo">
+                <img src="components/img/Cleo-aventais.png">
+            </div>
+
+            <a href="#home">
+                Retornar ao topo <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </div>
+
+        <h5>2023 © Cleo. Todos os direitos reservados.</h4>
+
+    </footer>
+
+    <script src="mobile-navbar.js"></script>
+    <script defer src="form.js"></script>
+    <script src="https://kit.fontawesome.com/bc8faa93a8.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
